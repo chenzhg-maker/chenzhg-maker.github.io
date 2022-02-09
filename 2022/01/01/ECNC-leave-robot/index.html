@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>ECNC_leave_robot | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="ECNC代班脚本123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ECNC_leave_robot">
+<meta property="og:url" content="http://example.com/2022/01/01/ECNC-leave-robot/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="ECNC代班脚本123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-01-01T07:49:58.000Z">
+<meta property="article:modified_time" content="2022-02-09T01:55:31.784Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -69,9 +73,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-ECNC-leave-robot" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-ECNC-leave-robot" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/01/01/ECNC-leave-robot/" class="article-date">
   <time class="dt-published" datetime="2022-01-01T07:49:58.000Z" itemprop="datePublished">2022-01-01</time>
@@ -84,8 +86,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/01/01/ECNC-leave-robot/">ECNC_leave_robot</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      ECNC_leave_robot
     </h1>
   
 
@@ -104,232 +106,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-（Python）List Comprehension使用方法" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/12/26/%EF%BC%88Python%EF%BC%89List%20Comprehension%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" class="article-date">
-  <time class="dt-published" datetime="2021-12-26T14:40:00.000Z" itemprop="datePublished">2021-12-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/12/26/%EF%BC%88Python%EF%BC%89List%20Comprehension%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/">List Comprehension使用方法</a>
-    </h1>
+    <a href="/2021/12/26/%EF%BC%88Python%EF%BC%89List%20Comprehension%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">List Comprehension使用方法</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="（Python）List-Comprehension使用方法"><a href="#（Python）List-Comprehension使用方法" class="headerlink" title="（Python）List Comprehension使用方法"></a>（Python）List Comprehension使用方法</h1><p>今天偶然刷到一道关于List Comprehension（列表解析）的Python题目 <a target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true">HackerRank</a></p>
-<p>因为之前对于Python只是粗浅的了解过，并没有深入使用，因此我就去查了相关的用法。</p>
-<p>List Comprehension的语法如下</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">newlist = [expression <span class="keyword">for</span> item <span class="keyword">in</span> iterable <span class="keyword">if</span> condition == <span class="literal">True</span>]</span><br></pre></td></tr></table></figure>
-
-<p>expression可以是判断语句之类的表达式</p>
-<p>List Comprehension具体应用如下</p>
-<ul>
-<li>例1（遍历list中的所有元素）：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">list</span> = <span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">10</span>))</span><br><span class="line"><span class="built_in">print</span>([item <span class="keyword">for</span> item <span class="keyword">in</span> <span class="built_in">list</span>])</span><br></pre></td></tr></table></figure>
-
-
-<ul>
-<li>运行结果：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]</span><br></pre></td></tr></table></figure>
-
-
-<ul>
-<li>例2（遍历list中的所有元素，如果该元素大于等于5，直接输出；否则设为该数的相反数）：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">list</span> = <span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">10</span>))</span><br><span class="line"><span class="built_in">print</span>([item <span class="keyword">if</span> item &gt;= <span class="number">5</span> <span class="keyword">else</span> -item <span class="keyword">for</span> item <span class="keyword">in</span> <span class="built_in">list</span>]) <span class="comment">#此处的else不可省略！</span></span><br></pre></td></tr></table></figure>
-
-
-<ul>
-<li>运行结果：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">0</span>, -<span class="number">1</span>, -<span class="number">2</span>, -<span class="number">3</span>, -<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>例3（遍历list中的所有元素，如果该元素大于等于5，输出；否则不输出）：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">list</span> = <span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">10</span>))</span><br><span class="line"><span class="built_in">print</span>([item  <span class="keyword">for</span> item <span class="keyword">in</span> <span class="built_in">list</span> <span class="keyword">if</span> item &gt;= <span class="number">5</span>])</span><br></pre></td></tr></table></figure>
-
-
-<ul>
-<li>运行结果：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
-<li><p>[1] <a target="_blank" rel="noopener" href="https://www.w3schools.com/python/python_lists_comprehension.asp">https://www.w3schools.com/python/python_lists_comprehension.asp</a></p>
-</li>
-<li><p>[2] <a target="_blank" rel="noopener" href="https://www.programiz.com/python-programming/list-comprehension">https://www.programiz.com/python-programming/list-comprehension</a></p>
-</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/26/%EF%BC%88Python%EF%BC%89List%20Comprehension%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" data-id="ckxnd5t0t0003l4uv77l17wga" data-title="List Comprehension使用方法" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/" rel="tag">Python</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-ssh-keygen报错解决方法" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/12/21/ssh-keygen%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" class="article-date">
-  <time class="dt-published" datetime="2021-12-20T16:23:39.197Z" itemprop="datePublished">2021-12-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="ssh创建密钥失败：No-such-file-or-directory或者-Is-a-directory"><a href="#ssh创建密钥失败：No-such-file-or-directory或者-Is-a-directory" class="headerlink" title="ssh创建密钥失败：No such file or directory或者 Is a directory"></a>ssh创建密钥失败：No such file or directory或者 Is a directory</h1><h3 id="密钥生成的命令如下"><a href="#密钥生成的命令如下" class="headerlink" title="密钥生成的命令如下"></a>密钥生成的命令如下</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;youremail@example.com&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="失败记录如下图："><a href="#失败记录如下图：" class="headerlink" title="失败记录如下图："></a>失败记录如下图：</h3><p><img src="https://raw.githubusercontent.com/chenzhg-maker/Images/main/blog_1/image1.jpg" alt="image1.jpg (734×168) (raw.githubusercontent.com)"></p>
-<h3 id="搜索了许多解决方法，但是csdn大部分博客都没有解决这一个问题，然后我在stack-overflow看到一个解决方法（如下图）"><a href="#搜索了许多解决方法，但是csdn大部分博客都没有解决这一个问题，然后我在stack-overflow看到一个解决方法（如下图）" class="headerlink" title="搜索了许多解决方法，但是csdn大部分博客都没有解决这一个问题，然后我在stack overflow看到一个解决方法（如下图）"></a>搜索了许多解决方法，但是csdn大部分博客都没有解决这一个问题，然后我在stack overflow看到一个解决方法（如下图）</h3>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/21/ssh-keygen%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" data-id="ckxnd5t0s0002l4uv0wl22hjz" data-title="" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-myFirstBlog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/12/18/myFirstBlog/" class="article-date">
-  <time class="dt-published" datetime="2021-12-18T08:20:43.000Z" itemprop="datePublished">2021-12-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/12/18/myFirstBlog/">myFirstBlog</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="第一篇博客（测试）"><a href="#第一篇博客（测试）" class="headerlink" title="第一篇博客（测试）"></a>第一篇博客（测试）</h1><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
-<ul>
-<li><p>第一项</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line">  <span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line">  </span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; endl ;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></li>
-<li><p>第二项</p>
-<blockquote>
-<p>引用</p>
-</blockquote>
-</li>
-</ul>
-<p><img src="C:\Users\梗中辰\AppData\Roaming\Typora\typora-user-images\image-20211219155247556.png" alt="image-20211219155247556"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/18/myFirstBlog/" data-id="ckxnd5t0q0001l4uv68r15fhd" data-title="myFirstBlog" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/12/18/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2021-12-18T08:06:42.921Z" itemprop="datePublished">2021-12-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/12/18/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/18/hello-world/" data-id="ckxnd5t0l0000l4uv16tj6wz5" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
